@@ -1,14 +1,48 @@
 body {
+
+    background-color: rebeccapurple;
+
+color: #00000000;
+/*color: #FFFFFFFF */
+
+    color: rgba(255,255,255, .9);
+    /* AQUÍ SE LISTAN LAS PROPIEDADES */
     font-family: "Rock 3D", system-ui;
     font-weight: 400;
     font-style: normal;
 }
 
+h1
+{
+font-size: 64px;
+text-align: center;
+}
+
+h2
+{
+font-size: 32px;
+
+}
+
 h3 {
 
+        font-size: 32px;
         font-family: "Dokdo", system-ui;
         font-weight: 400;
         font-style: normal;
-      
-      
+       
+}
+
+p
+{
+
+    font-size: 16px;
+}
+
+main
+{
+    width: 80%;
+    margin: 0 auto;
+color: rgba(255,0,0,.5)
+
 }
